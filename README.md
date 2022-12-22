@@ -1,1 +1,1 @@
-# Website-Using-HTML-and-CSS
+# JavaScript Password Generator App

@@ -1,75 +1,22 @@
-  * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-  }
-
-  body {
-    background-color: #9b415c;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    min-height: 100vh;
-    margin: 0;
-    font-family: sans-serif;
-  }
-
-  .container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: #6f2f42;
-    height: 100vh;
-    padding: 3rem;
-    border-radius: 1rem;
-    border: 2px solid black;
-    flex-direction: column;
-  }
-
-  .password-generator {
-    padding: 40px;
-    background-color: #6f2f42;
-    color: antiquewhite;
-    font-size: 20px;
-    text-align: center;
-    font-family: sans-serif;
-  }
-
-  .password-generator div {
-    display: flex;
-    justify-content: space-between;
-    margin: 10px 0;
-    border: 1px solid #333;
-    border-radius: 0.5rem;
- }
-
- .password {
-    min-width: 350px;
-    background-color: #99596c;
-    color: antiquewhite;
-    padding: 0.5rem;
-    border: 1px solid black;
-    border-radius: 0.5rem;
-    height: 3rem;
-    align-items: center;
-    justify-content: center;
-    display: flex;
- }
-
- .password p {
-    padding: 6px 10px;
-    width: 1rem;
-    align-items: center;
-    justify-content: center;
-    display: flex;
+body {
+  background-color: #9b415c;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  margin: 0;
+  font-family: sans-serif;
 }
 
-.password i {
-    background-color: rgba(241, 241, 241, 0.575);
-    padding: 6px 10px;
-    margin-right: -275px;
-    padding: 0.5rem;
-    background-color: #2c131a;
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #6f2f42;
+  padding: 3rem;
+  border-radius: 1rem;
+  border: 2px solid black;
+  flex-direction: column;
 }
 
 .form {
@@ -85,26 +32,59 @@
   font-size: 16px;
 }
 
-.length {
-    padding-top: 1rem;
+.title {
+  margin: 0;
+  padding: 40px;
+  background-color: #6f2f42;
+  color: antiquewhite;
+  font-size: 20px;
+  text-align: center;
+  font-family: sans-serif;
 }
 
-.button {
-  grid-column: span 2;
-  background-color: transparent;
-  border: 2px solid antiquewhite;
+.label {
+  font-weight: bold;
+}
+
+.character-amount-container {
+  align-items: center;
+  display: flex;
+}
+
+.number-input {
+  width: 2rem;
+}
+
+.password-display {
+  min-width: 350px;
+  background-color: #99596c;
   color: antiquewhite;
   padding: 1rem;
-  border-radius: 1rem;
-  cursor: pointer;
-  font-weight: bold;
-  min-width: 250px;
+  border: 1px solid black;
+  border-radius: 0.5rem;
   height: 2rem;
   align-items: center;
   justify-content: center;
   display: flex;
- }
+  word-break: break-all;
+}
 
- .button:hover {
-    background-color: #FFFFFF33;
- }
+.button {
+grid-column: span 2;
+background-color: transparent;
+border: 2px solid antiquewhite;
+color: antiquewhite;
+padding: 0.5rem 1rem;
+border-radius: 1rem;
+cursor: pointer;
+font-weight: bold;
+min-width: 250px;
+height: 2rem;
+align-items: center;
+justify-content: center;
+display: flex;
+}
+
+.button:hover {
+  background-color: #FFFFFF33;
+}
